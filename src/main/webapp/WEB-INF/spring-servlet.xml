@@ -16,7 +16,7 @@
 	Controller class methods return name of the view page and then suffix is added to figure 
 	out the view page for rendering the response -->
 	<beans:bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-		<beans:property name="prefix" value="/WEB-INF/views/" />
+		<beans:property name="prefix" value="/views/" />
 		<beans:property name="suffix" value=".jsp" />
 	</beans:bean>
 </beans:beans>
